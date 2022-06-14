@@ -15,7 +15,6 @@ class CameraView extends StatefulWidget {
       {Key? key,
       required this.title,
       required this.customPaint,
-      this.customPaint2,
       this.text,
       required this.onImage,
       this.onScreenModeChanged,
@@ -24,7 +23,6 @@ class CameraView extends StatefulWidget {
 
   final String title;
   final CustomPaint? customPaint;
-  final CustomPaint? customPaint2;
   final String? text;
   final Function(InputImage inputImage) onImage;
   final Function(ScreenMode mode)? onScreenModeChanged;
@@ -164,7 +162,6 @@ class _CameraViewState extends State<CameraView> {
             ),
           ),
           if (widget.customPaint != null) widget.customPaint!,
-          if (widget.customPaint2 != null) widget.customPaint2!,
           Positioned(
             bottom: 100,
             left: 50,
@@ -200,7 +197,6 @@ class _CameraViewState extends State<CameraView> {
                 children: <Widget>[
                   Image.file(_image!),
                   if (widget.customPaint != null) widget.customPaint!,
-                  if (widget.customPaint2 != null) widget.customPaint2!,
                 ],
               ),
             )

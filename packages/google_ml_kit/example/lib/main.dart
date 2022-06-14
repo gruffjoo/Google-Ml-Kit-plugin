@@ -53,29 +53,29 @@ class Home extends StatelessWidget {
                   ExpansionTile(
                     title: const Text('Vision APIs'),
                     children: [
-                      CustomCard('Barcode Scanning', BarcodeScannerView()),
+                      // CustomCard('Barcode Scanning', BarcodeScannerView()),
                       CustomCard('Face Detection', FaceDetectorView()),
-                      CustomCard('Image Labeling', ImageLabelView()),
-                      CustomCard('Object Detection', ObjectDetectorView()),
-                      CustomCard('Text Recognition', TextRecognizerView()),
-                      CustomCard('Digital Ink Recognition', DigitalInkView()),
-                      CustomCard('Pose Detection', PoseDetectorView()),
-                      CustomCard('Selfie Segmentation', SelfieSegmenterView()),
+                      // CustomCard('Image Labeling', ImageLabelView()),
+                      // CustomCard('Object Detection', ObjectDetectorView()),
+                      // CustomCard('Text Recognition', TextRecognizerView()),
+                      // CustomCard('Digital Ink Recognition', DigitalInkView()),
+                      // CustomCard('Pose Detection', PoseDetectorView()),
+                      // CustomCard('Selfie Segmentation', SelfieSegmenterView()),
                     ],
                   ),
                   SizedBox(
                     height: 20,
                   ),
-                  ExpansionTile(
-                    title: const Text('Natural Language APIs'),
-                    children: [
-                      CustomCard('Language ID', LanguageIdentifierView()),
-                      CustomCard(
-                          'On-device Translation', LanguageTranslatorView()),
-                      CustomCard('Smart Reply', SmartReplyView()),
-                      CustomCard('Entity Extraction', EntityExtractionView()),
-                    ],
-                  ),
+                  // ExpansionTile(
+                  //   title: const Text('Natural Language APIs'),
+                  //   children: [
+                  //     CustomCard('Language ID', LanguageIdentifierView()),
+                  //     CustomCard(
+                  //         'On-device Translation', LanguageTranslatorView()),
+                  //     CustomCard('Smart Reply', SmartReplyView()),
+                  //     CustomCard('Entity Extraction', EntityExtractionView()),
+                  //   ],
+                  // ),
                 ],
               ),
             ),
