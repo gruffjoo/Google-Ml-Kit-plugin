@@ -60,7 +60,7 @@ class Home extends StatelessWidget {
                       // CustomCard('Text Recognition', TextRecognizerView()),
                       // CustomCard('Digital Ink Recognition', DigitalInkView()),
                       // CustomCard('Pose Detection', PoseDetectorView()),
-                      // CustomCard('Selfie Segmentation', SelfieSegmenterView()),
+                      CustomCard('Selfie Segmentation', SelfieSegmenterView()),
                     ],
                   ),
                   SizedBox(

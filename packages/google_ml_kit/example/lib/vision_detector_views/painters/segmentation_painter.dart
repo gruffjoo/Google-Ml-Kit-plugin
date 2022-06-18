@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_selfie_segmentation/google_mlkit_selfie_segmentation.dart';
+// import 'coordinates_translator.dart';
 
 class SegmentationPainter extends CustomPainter {
   final SegmentationMask mask;
   final Size absoluteImageSize;
-  final Color color = Colors.red;
+  final Color color = Colors.blueAccent;
   final InputImageRotation rotation;
 
   SegmentationPainter(

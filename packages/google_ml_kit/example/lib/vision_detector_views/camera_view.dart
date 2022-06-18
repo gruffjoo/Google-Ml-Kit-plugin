@@ -164,7 +164,7 @@ class _CameraViewState extends State<CameraView> {
             ),
           ),
           if (widget.customPaint != null) widget.customPaint!,
-          if (widget.customPaint2 != null) widget.customPaint2!,
+          // if (widget.customPaint2 != null) widget.customPaint2!,
           Positioned(
             bottom: 100,
             left: 50,
